@@ -43,8 +43,8 @@ Each flag gets a **normalized anomaly score (0.0–1.0)** based on how far the r
 ### Run Locally
 
 ```bash
-git clone https://github.com/NifraWahaj/ride-intelligence-api
-cd ride-intelligence-api
+git clone https://github.com/NifraWahaj/https://github.com/NifraWahaj/RideIntelligenceAPI
+cd RideIntelligenceAPI
 mvn spring-boot:run
 ```
 
