@@ -142,18 +142,6 @@ mvn test
 
 Unit tests cover all 4 anomaly detection rules, score normalization, and clean ride cases. Integration tests cover the full ride lifecycle including anomaly detection via MockMvc.
 
----
-
-## Design Decisions
-
-**Why rule-based detection instead of ML?**
-For a portfolio project, a transparent rule-based engine is more appropriate than a black-box model — it's easier to explain, test, and tune. In production, these rules would serve as a baseline layer alongside a trained classifier on historical labeled data.
-
-**Why H2 for dev?**
-Zero-config setup means anyone can clone and run immediately. Switch to PostgreSQL for production by updating `application.properties`.
-
-**Why DTOs instead of exposing entities directly?**
-Follows clean architecture — entities and API contracts evolve independently. Prevents over-fetching and accidental exposure of internal fields.
 
 ---
 
