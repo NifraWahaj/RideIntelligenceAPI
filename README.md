@@ -1,6 +1,6 @@
 # Ride Intelligence API
 
-A production-grade Spring Boot REST API for ride-hailing analytics and real-time anomaly detection. Designed to mirror the backend architecture used by platforms like Careem — microservice-ready, clean layered architecture, fully tested.
+A Spring Boot REST API for ride-hailing analytics and real-time anomaly detection. Designed to mirror the backend architecture used by platforms like Careem — microservice-ready, clean layered architecture, fully tested.
 
 ---
 
